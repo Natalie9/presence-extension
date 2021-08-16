@@ -1,0 +1,25 @@
+{
+  "name": "Presence list",
+  "description": "Generator of presence list in meeting call",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/icon/checkList.png",
+      "32": "/icon/checkList.png",
+      "48": "/icon/checkList.png",
+      "128": "/icon/checkList.png"
+    }
+  },
+
+
+  "icons":  {
+    "16": "/icon/checkList.png",
+    "32": "/icon/checkList.png",
+    "48": "/icon/checkList.png",
+    "128": "/icon/checkList.png"
+  },
+  "options_page": "options.html"
+}
